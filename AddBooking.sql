@@ -12,5 +12,5 @@ CREATE PROCEDURE Addbooking(
    SELECT CONCAT('New booking added') AS Confirmation;
 END $
 SELECT * FROM booking;
-drop procedure Addbooking;
+
 Call ADDbooking(10,'2024-10-2',5,9,'19:00:00',2);
